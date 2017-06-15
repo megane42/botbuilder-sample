@@ -5,11 +5,10 @@ var restify = require('restify');
 
 // auth for connector
 
-// var connector = new builder.ChatConnector({
-//     appId: process.env.MICROSOFT_APP_ID,
-//     appPassword: process.env.MICROSOFT_APP_PASSWORD
-// });
-var connector = new builder.ChatConnector();
+var connector = new builder.ChatConnector({
+    appId: process.env.MICROSOFT_APP_ID,
+    appPassword: process.env.MICROSOFT_APP_PASSWORD
+});
 
 // making server
 
