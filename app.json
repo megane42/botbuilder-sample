@@ -3,11 +3,11 @@
     "description": "A minimum example of MS Bot Builder SDK",
     "env": {
         "MICROSOFT_APP_ID": {
-            "description": "Microsoft App ID of your bot",
+            "description": "MS App ID of your bot (created on botframework)",
             "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "MICROSOFT_APP_PASSWORD": {
-            "description": "Microsoft App Password of your bot",
+            "description": "MS App Password of your bot (created on botframework)",
             "value": "asdfasdf"
         }
     }
