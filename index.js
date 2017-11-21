@@ -22,5 +22,10 @@ server.post('/api/messages', connector.listen());
 
 var bot = new builder.UniversalBot(connector);
 bot.dialog('/', function (session) {
-    session.send('Hello World');
+    let request = session.message.text;
+    let response = request;
+    if(request == 'ping'){
+        response = 'pong';
+    }
+    session.send(response);
 });
